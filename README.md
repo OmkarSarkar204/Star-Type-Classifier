@@ -27,7 +27,9 @@ The model demonstrates high precision and recall for most star types, proving it
 
 
 
+<img width="851" height="120" alt="Screenshot 2025-08-21 at 4 24 49 PM" src="https://github.com/user-attachments/assets/5bd0c093-8f94-4e0d-b2df-4ae484601895" />
 
 
+<img width="437" height="50" alt="Screenshot 2025-08-21 at 4 18 48 PM" src="https://github.com/user-attachments/assets/9f12541f-3cc4-41d2-a5b6-6aa2f0bfab96" />
 
 
