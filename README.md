@@ -17,7 +17,39 @@ The notebook demonstrates a full machine learning pipeline, including:
 * Making predictions on new, real-world examples (Sirius and Betelgeuse and many more).
 
 ### **Dataset**
-The model uses the "Star Type Classification" dataset available on Kaggle. You can find it at the following link: Star Type Classification Dataset.
+Of course. Adding sections on features and formulas is an excellent way to make your README more detailed and professional. It shows you have a deeper understanding of the data and the mechanics of your model.
+
+Here is an updated version of your README template with these new sections included.
+
+Star-Type-Classifier
+A machine learning project that classifies stars into one of six different types based on their physical and spectral characteristics.
+
+Description
+This project uses a k-Nearest Neighbors (k-NN) machine learning model to predict the type of a star. The model is trained on a dataset of stellar properties and demonstrates a complete ML workflow, including data preprocessing, feature scaling, model training, and evaluation.
+
+## Dataset
+The project uses the "Star Type Classification" dataset available on Kaggle. You can find it here: Star Type Classification Dataset
+
+## Features
+The model is trained using the following features. The categorical features (Star color, Spectral Class) are numerically encoded before being used.
+
+* Temperature: Surface temperature in Kelvin (K).
+* Luminosity (L/Lo): Relative luminosity compared to the Sun.
+* Radius (R/Ro): Relative radius compared to the Sun.
+*Absolute Magnitude (A_M): The intrinsic brightness of the star at a standard distance.
+* Star Color: The apparent color of the star (e.g., Red, Blue-White).
+* Spectral Class: The standard stellar classification (O, B, A, F, G, K, M).
+
+## Target Variable
+Star Type: The main goal of the model is to predict this value, which corresponds to one of six star classes:
+
+* 0: Brown Dwarf
+* 1: Red Dwarf
+* 2: White Dwarf
+* 3: Main Sequence
+* 4: Supergiant
+* 5: Hypergiant
+
 
 ### Results
 The final k-NN model (using n_neighbors=3), after implementing StandardScaler for feature scaling, achieved an accuracy of 94% on the unseen test data. Feature scaling was found to be a critical step, improving the accuracy from an initial 77%.
